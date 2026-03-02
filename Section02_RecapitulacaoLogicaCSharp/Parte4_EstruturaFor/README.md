@@ -7,7 +7,7 @@
 Diretório reservado para a resolução de 7 exercícios de lógica usando a estrutura de repetição `for`, do curso **[C# COMPLETO Programação Orientada a Objetos + Projetos](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)**, ministrado pelo professor **Nelio Alves** na plataforma **Udemy**.
 
 📌 **Foco:** Estruturas de repetição com quantidade determinada de passos (laço `for`).  
-📊 **Progresso:** 🚧 5/7 concluídos.
+📊 **Progresso:** 🚧 7/7 concluídos.
 
 ---
 
@@ -215,6 +215,74 @@ namespace factorial {
 
 ### 🖥️ Saída no Terminal:
 ![Resultado no Terminal](./assets/Terminal_Exercicio05_Fatorial.png)
+
+</details>
+
+---
+
+<details>
+<summary><strong>Exercício 06: Divisores</strong></summary>
+
+### 📷 Enunciado:
+![Enunciado do Exercício](./assets/Exercicio06_Divisores.png)
+
+### 💻 Código:
+```csharp
+using System;
+
+namespace dividers {
+    class Program {
+        static void Main(string[] args) {
+
+            int n = int.Parse(Console.ReadLine()!);
+
+            for (int i = 1; i <= n; i++) {
+                if (n % i == 0) {
+                    Console.WriteLine(i);
+                }
+            }
+        }
+    }
+}
+```
+
+### 🖥️ Saída no Terminal:
+![Resultado no Terminal](./assets/Terminal_Exercicio06_Divisores.png)
+
+</details>
+
+---
+
+<details>
+<summary><strong>Exercício 07: Linhas, Quadrado e Cubo</strong></summary>
+
+### 📷 Enunciado:
+![Enunciado do Exercício](./assets/Exercicio07_LinhasQuadradoCubo.png)
+
+### 💻 Código:
+```csharp
+using System;
+
+namespace linesSquareCube {
+    class Program {
+        static void Main(string[] args) {
+
+            int n = int.Parse(Console.ReadLine()!);
+
+            for (int i = 1; i <= n; i++) {
+
+                int primeiro = i;
+                int segundo = i * i;
+                int terceiro = i * i * i;
+                Console.WriteLine($"{primeiro} {segundo} {terceiro}");
+            }
+        }
+    }
+}
+```
+
+### 🖥️ Saída no Terminal:
+![Resultado no Terminal](./assets/Terminal_Exercicio07_LinhasQuadradoCubo.png)
 
 </details>
 
