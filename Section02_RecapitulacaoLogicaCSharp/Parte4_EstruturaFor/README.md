@@ -13,13 +13,25 @@ Diretório reservado para a resolução de 7 exercícios de lógica usando a est
 
 ## 🛠️ Conhecimentos Desenvolvidos
 
-*(Em andamento...)*
+* **A Lógica do Laço `for`:** Entender na prática como configurar o início, a condição de parada e o passo de uma repetição quando sabemos exatamente quantas vezes o código precisa rodar.
+* **Contadores e Acumuladores:** O hábito de criar variáveis fora do laço para guardar resultados, seja para contar quantas vezes algo aconteceu (como um "placar") ou para ir somando/multiplicando valores a cada volta.
+* **Conversão de Tipos (Casting):** O famoso `(double)`. Aprendi a forçar o C# a fazer contas quebradas com precisão, mesmo quando os números originais do cálculo são inteiros.
+* **Interpolação de Strings:** Um jeito muito mais limpo e legível de misturar textos e variáveis na mesma linha usando o cifrão e chaves (`$"{variavel}"`).
+* **Matemática Aplicada ao Código:** Traduzir problemas lógicos para a programação, calculando desde fatoriais e médias ponderadas até a validação de regras importantes (como não permitir divisão por zero).
 
 ---
 
 ## 📋 Resumo dos Exercícios
 
-*(Em andamento...)*
+| # | Desafio | O que eu pratiquei |
+|---|---|---|
+| **01** | Ímpares | Usar o `for` junto com o resto da divisão (`%`) para filtrar números. |
+| **02** | Dentro e Fora | Criar variáveis contadoras que atualizam seu valor a cada ciclo do laço. |
+| **03** | Médias Ponderadas | Ler várias linhas de entrada e aplicar cálculos com pesos diferentes. |
+| **04** | Divisão Pares | Tratar a divisão por zero e forçar o resultado decimal usando *casting*. |
+| **05** | Fatorial | A lógica clássica de usar um acumulador multiplicando o valor a cada volta. |
+| **06** | Divisores | Usar o operador de módulo (`%`) para descobrir divisões exatas. |
+| **07** | Linhas, Quadrado e Cubo | Usar o próprio contador do laço (`i`) para fazer os cálculos na hora de imprimir. |
 
 ---
 
