@@ -7,7 +7,7 @@
 Diretório reservado para a resolução de 7 exercícios de lógica usando a estrutura de repetição `for`, do curso **[C# COMPLETO Programação Orientada a Objetos + Projetos](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)**, ministrado pelo professor **Nelio Alves** na plataforma **Udemy**.
 
 📌 **Foco:** Estruturas de repetição com quantidade determinada de passos (laço `for`).  
-📊 **Progresso:** 🚧 3/7 concluídos.
+📊 **Progresso:** 🚧 5/7 concluídos.
 
 ---
 
@@ -140,3 +140,82 @@ namespace weightedAverages {
 ![Resultado no Terminal](./assets/Terminal_Exercicio03_MediasPonderadas.png)
 
 </details>
+
+---
+
+<details>
+<summary><strong>Exercício 04: Divisão Pares</strong></summary>
+
+### 📷 Enunciado:
+![Enunciado do Exercício](./assets/Exercicio04_DivisaoPares.png)
+
+### 💻 Código:
+```csharp
+using System;
+using System.Globalization;
+
+namespace divisionPairs {
+    class Program {
+        static void Main(string[] args) {
+
+            int n = int.Parse(Console.ReadLine()!);
+
+            for (int i = 0; i < n; i++) {
+
+                string[] line = Console.ReadLine()!.Split(' ');
+                int x = int.Parse(line[0]);
+                int y = int.Parse(line[1]);
+
+                if (y == 0) {
+                    Console.WriteLine("divisao impossivel");
+                }
+                else {
+                    double div = (double)x / y;
+                    Console.WriteLine(div.ToString("F1", CultureInfo.InvariantCulture));
+                }
+            }
+        }
+    }
+}
+```
+
+### 🖥️ Saída no Terminal:
+![Resultado no Terminal](./assets/Terminal_Exercicio04_DivisaoPares.png)
+
+</details>
+
+---
+
+<details>
+<summary><strong>Exercício 05: Fatorial</strong></summary>
+
+### 📷 Enunciado:
+![Enunciado do Exercício](./assets/Exercicio05_Fatorial.png)
+
+### 💻 Código:
+```csharp
+using System;
+
+namespace factorial {
+    class Program {
+        static void Main(string[] args) {
+
+            int n = int.Parse(Console.ReadLine()!);
+
+            int fat = 1;
+            for (int i = 1; i <= n; i++) {
+                fat = fat * i;
+            }
+
+            Console.WriteLine(fat);
+        }
+    }
+}
+```
+
+### 🖥️ Saída no Terminal:
+![Resultado no Terminal](./assets/Terminal_Exercicio05_Fatorial.png)
+
+</details>
+
+---
