@@ -7,7 +7,7 @@
 Diretório reservado para a resolução de 7 exercícios de lógica usando a estrutura de repetição `for`, do curso **[C# COMPLETO Programação Orientada a Objetos + Projetos](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)**, ministrado pelo professor **Nelio Alves** na plataforma **Udemy**.
 
 📌 **Foco:** Estruturas de repetição com quantidade determinada de passos (laço `for`).  
-📊 **Progresso:** 🚧 1/7 concluídos.
+📊 **Progresso:** 🚧 3/7 concluídos.
 
 ---
 
@@ -55,5 +55,88 @@ namespace OddNumbers {
 
 ### 🖥️ Saída no Terminal:
 ![Resultado no Terminal](./assets/Terminal_Exercicio01_Impares.png)
+
+</details>
+
+---
+
+<details>
+<summary><strong>Exercício 02: Dentro e Fora</strong></summary>
+
+### 📷 Enunciado:
+![Enunciado do Exercício](./assets/Exercicio02_DentroFora.png)
+
+### 💻 Código:
+```csharp
+using System;
+
+namespace insideOutside {
+    class Program {
+        static void Main(string[] args) {
+
+            int n = int.Parse(Console.ReadLine()!);
+
+            int cont_in = 0;
+            int cont_out = 0;
+
+            for (int i = 0; i < n; i++) {
+                int x = int.Parse(Console.ReadLine()!);
+                if (x >= 10 && x <= 20) {
+                    cont_in = cont_in + 1;
+                }
+                else {
+                    cont_out = cont_out + 1;
+                }
+            }
+
+            Console.WriteLine(cont_in + " in");
+            Console.WriteLine(cont_out + " out");
+        }
+    }
+}
+```
+
+### 🖥️ Saída no Terminal:
+![Resultado no Terminal](./assets/Terminal_Exercicio02_DentroFora.png)
+
+</details>
+
+---
+
+<details>
+<summary><strong>Exercício 03: Médias Ponderadas</strong></summary>
+
+### 📷 Enunciado:
+![Enunciado do Exercício](./assets/Exercicio03_MediasPonderadas.png)
+
+### 💻 Código:
+```csharp
+using System;
+using System.Globalization;
+
+namespace weightedAverages {
+    class Program {
+        static void Main(string[] args) {
+
+            int n = int.Parse(Console.ReadLine()!);
+
+            for (int i = 0; i < n; i++) {
+
+                string[] line = Console.ReadLine()!.Split(' ');
+                double a = double.Parse(line[0], CultureInfo.InvariantCulture);
+                double b = double.Parse(line[1], CultureInfo.InvariantCulture);
+                double c = double.Parse(line[2], CultureInfo.InvariantCulture);
+
+                double media = (a * 2.0 + b * 3.0 + c * 5.0) / 10.0;
+
+                Console.WriteLine(media.ToString("F1", CultureInfo.InvariantCulture));
+            }
+        }
+    }
+}
+```
+
+### 🖥️ Saída no Terminal:
+![Resultado no Terminal](./assets/Terminal_Exercicio03_MediasPonderadas.png)
 
 </details>
