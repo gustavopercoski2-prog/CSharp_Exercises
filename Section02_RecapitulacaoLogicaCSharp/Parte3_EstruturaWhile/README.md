@@ -37,7 +37,7 @@ Diretório reservado para a resolução de 3 exercícios de lógica usando a est
 ---
 
 <details>
-<summary><strong>Exercício 01: Senha Valida</strong></summary>
+<summary><strong>Exercício 01: Senha Válida</strong></summary>
 
 ### 📷 Enunciado:
 ![Enunciado do Exercício](./assets/Exercicio01_SenhaValida.png)

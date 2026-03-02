@@ -42,10 +42,10 @@ Diretório reservado para a resolução de 8 exercícios práticos do curso **[C
 <details>
 <summary><strong>Exercício 01: Número Negativo</strong></summary>
 
-### 📷 Enunciado
+### 📷 Enunciado:
 ![Enunciado](./assets/Exercicio01_NumeroNegativo.png)
 
-### 💻 Código
+### 💻 Código:
 ```csharp
 namespace NegativeNumber {
     class Program {
