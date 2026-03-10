@@ -21,7 +21,6 @@ namespace PrimeiroProjeto
 
 ### Conceitos aprendidos
 
-* **using System;**: necessário pra usar o Console.WriteLine
 * **namespace**: serve pra organizar o código dentro do projeto
 * **class**: é onde o código do programa fica
 * **Main**: é o ponto de início do programa
