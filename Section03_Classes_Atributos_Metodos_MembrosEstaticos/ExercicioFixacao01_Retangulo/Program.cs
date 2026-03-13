@@ -1,9 +1,18 @@
-﻿namespace ExercicioFixacao01_Retangulo;
-
-class Program
+﻿using System;
+using System.Globalization;
+namespace ExercicioFixacao01_Retangulo
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.WriteLine("Hello, World!");
+        static void Main(string[] args)
+        {
+            Retangulo ret = new Retangulo();
+            Console.WriteLine("Entre a largura e altura do retângulo: ");
+            ret.Largura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            ret.Altura = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
+            Console.WriteLine("AREA = " + ret.Area().ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("PERIMETRO = " + ret.Perimetro().ToString("F2", CultureInfo.InvariantCulture));
+            Console.WriteLine("DIAGONAL = " + ret.Diagonal().ToString("F2", CultureInfo.InvariantCulture));
+        }
     }
 }
