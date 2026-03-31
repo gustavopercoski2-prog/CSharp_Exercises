@@ -67,6 +67,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioFixacao02_Funciona
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioFixacao03_Aluno", "Section03_Classes_Atributos_Metodos_MembrosEstaticos\ExercicioFixacao03_Aluno\ExercicioFixacao03_Aluno.csproj", "{0AB72B86-E59F-478B-A6DF-87D43DF54CE6}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Section04_Construtores_this_Sobrecarga_Encapsulamento", "Section04_Construtores_this_Sobrecarga_Encapsulamento", "{C8EFE446-476D-47C4-B94B-94E000AF2E23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercicio_Fixacao_ContaBancaria", "Section04_Construtores_this_Sobrecarga_Encapsulamento\Exercicio_Fixacao_ContaBancaria\Exercicio_Fixacao_ContaBancaria.csproj", "{89E745E5-799A-4936-945B-F4841FBDBCF7}"
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -392,6 +396,18 @@ Global
 		{0AB72B86-E59F-478B-A6DF-87D43DF54CE6}.Release|x64.Build.0 = Release|Any CPU
 		{0AB72B86-E59F-478B-A6DF-87D43DF54CE6}.Release|x86.ActiveCfg = Release|Any CPU
 		{0AB72B86-E59F-478B-A6DF-87D43DF54CE6}.Release|x86.Build.0 = Release|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Debug|x64.Build.0 = Debug|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Debug|x86.Build.0 = Debug|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Release|x64.ActiveCfg = Release|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Release|x64.Build.0 = Release|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Release|x86.ActiveCfg = Release|Any CPU
+		{89E745E5-799A-4936-945B-F4841FBDBCF7}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{B5EABA59-CF66-4845-A3F0-65BD0E36DB86} = {8E4CBF3D-C622-4CF4-ADE0-02E1B9B679B1}
@@ -423,5 +439,6 @@ Global
 		{4009FD30-5527-4995-8605-29572B934387} = {8F370008-7FD0-4EC7-8011-5118A8C1FFDC}
 		{3D3CCACD-AF27-4B7C-B3C5-F493D368F79F} = {8F370008-7FD0-4EC7-8011-5118A8C1FFDC}
 		{0AB72B86-E59F-478B-A6DF-87D43DF54CE6} = {8F370008-7FD0-4EC7-8011-5118A8C1FFDC}
+		{89E745E5-799A-4936-945B-F4841FBDBCF7} = {C8EFE446-476D-47C4-B94B-94E000AF2E23}
 	EndGlobalSection
 EndGlobal
