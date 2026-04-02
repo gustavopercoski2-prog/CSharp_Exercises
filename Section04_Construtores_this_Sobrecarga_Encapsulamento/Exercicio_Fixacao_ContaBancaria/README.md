@@ -5,7 +5,7 @@
 
 Este diretório contém a resolução do exercício de fixação focado em proteger o estado dos objetos e refinar a criação de instâncias, do curso **[C# COMPLETO Programação Orientada a Objetos + Projetos](https://www.udemy.com/course/programacao-orientada-a-objetos-csharp/)**, ministrado pelo professor **Nelio Alves** na plataforma **Udemy**.
 
-📌 **Foco:** Aprender a proteger dados sensíveis e garantir que um objeto seja criado de forma válida desde o primeiro segundo de vida na memória.
+📌 **Foco:** Aprender a proteger dados sensíveis e garantir que um objeto seja criado de forma válida desde o primeiro segundo de vida na memória.  
 📊 **Progresso:** ✅ 1/1 concluído.
 
 -----
@@ -15,7 +15,7 @@ Este diretório contém a resolução do exercício de fixação focado em prote
 Nesta etapa, o foco saiu da "lógica de cálculo" e foi para a **segurança e estrutura** da classe. Os pontos principais foram:
 
   - **Encapsulamento com `private set`:** Entendi que nem todo dado deve ser alterado por qualquer um. O saldo da conta e o número da conta foram protegidos para que apenas a própria classe decida como eles mudam.
-  - **Sobrecarga de Construtores:** Criei duas formas de iniciar uma conta — uma informando um depósito inicial e outra não — dando flexibilidade ao sistema.
+  - **Sobrecarga de Construtores:** Criei duas formas de iniciar uma conta, uma informando um depósito inicial e outra não, dando flexibilidade ao sistema.
   - **Palavra-chave `this`:** Utilizei para evitar repetição de código, fazendo um construtor chamar o outro.
   - **Centralização de Lógica:** No construtor com depósito inicial, chamei o método `Deposito()` em vez de alterar o saldo diretamente, garantindo que qualquer regra futura de depósito seja aplicada globalmente.
 
